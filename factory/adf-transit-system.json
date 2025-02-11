@@ -1,0 +1,9 @@
+{
+	"name": "adf-transit-system",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b7f80090-11e3-4e20-a666-bb76990e78b5",
+		"tenantId": "3463c2c0-f2e4-462d-b17e-61c588e84f02"
+	}
+}

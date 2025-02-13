@@ -1,96 +1,97 @@
 
----  
+---
 
 ## **1. Introduction**  
-The **NYC Green Taxi project** aims to extract, transform, and analyze taxi trip data to gain insights into the most frequently used pickup/drop-off locations, demand patterns, and operational efficiencies.  
+This project is an end-to-end **NYC Green Taxi project** built using **Azure Data Factory, Databricks, Delta Lake, and Power BI**. It follows a structured **Medallion Architecture (Bronze, Silver, Gold)** to ensure optimized data processing, transformation, and reporting.  
 
-### **Business Objective:**  
-- Identify high-demand zones for green taxis.  
-- Optimize taxi distribution based on trip data.  
-- Improve reporting efficiency using Power BI.  
-
----  
+---
 
 ## **2. Problem Statement**  
-### **Q: How can we efficiently analyze and visualize NYC Green Taxi trip data to identify demand patterns and optimize operations?**  
+
+### **Q: How can we optimize NYC Green Taxi operations by identifying high-demand locations?**  
 
 ### **Answer:**  
-By leveraging **Azure Data Factory for ingestion, Databricks for transformation, and Power BI for visualization**, we processed and analyzed trip data to uncover key demand locations, trends, and inefficiencies in taxi operations.  
+- By analyzing **pickup and drop-off patterns**, we can pinpoint **high-demand zones**.  
+- This helps taxi companies **optimize fleet distribution** and **improve service efficiency**.  
+- Using **Power BI**, we create dynamic dashboards for real-time decision-making.  
 
----  
+---
 
 ## **3. Skills Demonstrated**  
-✅ **Data Ingestion:** Fetching data from a website and APIs using **Azure Data Factory (ADF)**.  
-✅ **Data Engineering:** Using **Databricks clusters** for data transformation.  
-✅ **Data Modeling:** Implementing a **Medallion Architecture** (Bronze, Silver, Gold layers).  
-✅ **ETL Pipelines:** Using **ForEach loops, parameters, and linked services** in **ADF**.  
-✅ **Security Management:** Configuring **Service Principal & Data Lake Access**.  
-✅ **Data Visualization:** Connecting **Databricks Delta Tables** directly to **Power BI**.  
+✅ **Data Engineering** → Data ingestion, transformation, and storage using **Azure Data Factory & Databricks**.  
+✅ **Data Modeling** → Implemented **Medallion Architecture** (Bronze, Silver, Gold) for structured data processing.  
+✅ **Power BI Visualization** → Built interactive dashboards showing **top pickup/drop-off locations**.  
+✅ **Security & Access Control** → Used **Service Principal** to manage access in **Azure Data Lake**.  
 
----  
+---
 
 ## **4. Data Sourcing**  
-- **Source:** API ingestion via **Azure Data Factory**.  
-- **Storage:** Data stored in **Azure Data Lake Gen2** in **Parquet format**.  
-- **Processing:** Managed using **Databricks clusters**.  
+- **Fetched data directly from the website.**  
+- **Azure Data Factory** was used for ingestion via **API connections**.  
+- Data was stored in **Azure Data Lake (Gen2)** using **Parquet format** for efficiency.  
 
----  
+---
 
 ## **5. Data Transformation**  
-### **Medallion Architecture:**  
-- **Bronze Layer:** Stores **raw Parquet files** from the API.  
-- **Silver Layer:** PySpark transformations applied → Data stored in **Parquet**.  
-- **Gold Layer:** Data transformed into **Delta Tables** for analytics.  
+✔ **Bronze Layer:** Raw data stored in **Parquet format**.  
+✔ **Silver Layer:** Used **PySpark transformations** to clean and filter the data.  
+✔ **Gold Layer:** Created **Delta Tables** for efficient querying in Power BI.  
 
-### **Key Transformations:**  
-- Filtering **Top 10 Pickup/Drop-off Locations** to reduce data volume.  
-- Aggregating trip counts to identify **high-demand zones**.  
-- Optimizing data structure for faster reporting in **Power BI**.  
+### **Specific Transformation:**  
+- Filtered **Top 10 Pickup & Drop-off Locations** based on trip count.  
+- Aggregated data for **performance optimization** in Power BI.  
 
----  
+---
 
 ## **6. Data Modeling**  
-A **flat-table model** was used to simplify relationships, making **Power BI connections more efficient**. Key tables:  
-- **TaxiType** (Trip types, descriptions)  
-- **TaxiZone** (Borough, service zones)  
-- **TripsData2023** (Pickup & Drop-off locations, Vendor IDs)  
+- Used **Flat Tables** to simplify relationships between **trip data, taxi zones, and taxi types**.  
+- Directly connected **Power BI to Databricks Delta Tables** for real-time analytics.  
+- Optimized data queries for **better dashboard performance**.  
 
----  
+---
 
 ## **7. Analysis & Visualizations**  
-Created a **Power BI dashboard** with the following insights:  
-✅ **Top Pickup & Drop-off Zones:** Identified high-traffic areas.  
-✅ **Trip Counts by Borough & Zone:** Compared demand across different locations.  
-✅ **Demand Patterns:** Highlighted busiest areas using **bar charts & pie charts**.  
+Key Insights from Power BI Dashboard:  
+- **Top Boroughs & Zones:** Identified **high-demand locations** (e.g., JFK, Manhattan).  
+- **Trip Volume Trends:** Analyzed **peak hours and days** for better fleet management.  
+- **Drop-off vs. Pickup Patterns:** Helped **optimize taxi allocation strategies**.  
 
----  
+---
 
 ## **8. Conclusion & Recommendations**  
-### **Findings:**  
-1. **Manhattan & Brooklyn** have the highest taxi demand.  
-2. Some **drop-off locations have significantly lower counts**, indicating inefficiencies.  
-3. **Power BI performance improved** by filtering the top 10 locations.  
+
+### **Conclusion:**  
+✔ **Manhattan & JFK Airport** are the most frequent taxi zones.  
+✔ **Optimizing fleet allocation** in high-demand areas can improve efficiency.  
+✔ **Real-time dashboards** help businesses track trends and make data-driven decisions.  
 
 ### **Recommendations:**  
-✅ **Optimize taxi fleet distribution** based on high-demand areas.  
-✅ **Improve routing efficiency** by analyzing imbalances between pickup & drop-off.  
-✅ **Enhance Power BI reporting** by maintaining a structured data model.  
+- Deploy **dynamic pricing models** for high-demand zones.  
+- Increase taxi availability in **peak hours** for better service.  
+- Use **real-time analytics** for **data-driven fleet management**.  
 
----  
+---
 
-## **9. Technologies Used**  
-- **Azure Data Factory** → Ingestion (APIs, pipelines)  
-- **Databricks** → Data transformation & cluster management  
-- **Azure Data Lake** → Data storage in **Parquet & Delta formats**  
-- **Power BI** → Reporting & data visualization  
-- **Service Principal** → Secure access management  
+## **9. Challenges & Growth**  
 
----  
+### **Challenges Faced:**  
+❌ **Large data volume** – Optimized using **Parquet & Delta Tables**.  
+❌ **Security restrictions** – Implemented **Service Principal for Data Lake access**.  
+❌ **Performance issues in Power BI** – Solved by **filtering top 10 locations**.  
 
-### 🚀 **Project Impact:**  
-✅ **Reduced data load by filtering key insights** (Top 10 locations).  
-✅ **Improved Power BI performance & dashboard usability**.  
-✅ **Enabled real-time analytics with Delta Tables**.  
-✅ **Enhanced decision-making for fleet distribution**.  
+### **Growth & Learning:**  
+✅ Improved **Azure Data Engineering** skills.  
+✅ Gained experience in **Databricks Cluster Management**.  
+✅ Enhanced **Power BI Report Optimization** techniques.  
 
----  
+---
+
+## **10. Technologies Used**  
+- **Azure Data Factory** → Data ingestion via **APIs**.  
+- **Databricks** → Managed **clusters, transformations, and Delta Tables**.  
+- **Azure Data Lake Gen2** → Stored data in **Parquet & Delta format**.  
+- **Power BI** → Built **interactive dashboards & visualizations**.  
+
+---
+
+

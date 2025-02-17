@@ -11,7 +11,7 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
 ✅ **Data Modeling** → Implemented **Medallion Architecture** (Bronze, Silver, Gold) for structured data processing.  
 ✅ **Power BI Visualization** → Built interactive dashboards showing **top pickup/drop-off locations**.  
 ✅ **Security & Access Control** → Used **Service Principal** to manage access in **Azure Data Lake**.  
-
+![](visuals.png)
 ---
 
 ## **4. Data Sourcing**  
@@ -36,7 +36,8 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
 Key Insights from Power BI Dashboard:  
 - **Top Boroughs & Zones:** Identified **high-demand locations** (e.g., JFK, Manhattan).  
 - **Trip Volume Trends:** Analyzed **peak hours and days** for better fleet management.  
-- **Drop-off vs. Pickup Patterns:** Helped **optimize taxi allocation strategies**.  
+- **Drop-off vs. Pickup Patterns:** Helped **optimize taxi allocation strategies**.
+![](visuals.png)  
 
 ---
 ## **10. Technologies Used**  

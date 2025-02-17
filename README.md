@@ -10,11 +10,6 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
 
 ### **Q: How can we optimize NYC Green Taxi operations by identifying high-demand locations?**  
 
-### **Answer:**  
-- By analyzing **pickup and drop-off patterns**, we can pinpoint **high-demand zones**.  
-- This helps taxi companies **optimize fleet distribution** and **improve service efficiency**.  
-- Using **Power BI**, we create dynamic dashboards for real-time decision-making.  
-
 ---
 
 ## **3. Skills Demonstrated**  

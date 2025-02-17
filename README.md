@@ -61,12 +61,5 @@ Key Insights from Power BI Dashboard:
 
 ---
 
-## **10. Technologies Used**  
-- **Azure Data Factory** → Data ingestion via **APIs**.  
-- **Databricks** → Managed **clusters, transformations, and Delta Tables**.  
-- **Azure Data Lake Gen2** → Stored data in **Parquet & Delta format**.  
-- **Power BI** → Built **interactive dashboards & visualizations**.  
-
----
 
 

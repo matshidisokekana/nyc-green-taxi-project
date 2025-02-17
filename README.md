@@ -5,18 +5,24 @@
 This project is an end-to-end **NYC Green Taxi project** built using **Azure Data Factory, Databricks, Delta Lake, and Power BI**. It follows a structured **Medallion Architecture (Bronze, Silver, Gold)** to ensure optimized data processing, transformation, and reporting.  
  
 ---
+## **Medallion Architecture Diagram **
+![](diagram.jpeg)  
 
+---
+## **2. Skills Demonstrated**  
+✅ **Data Engineering** → Data ingestion, transformation, and storage using **Azure Data Factory & Databricks**.  
+✅ **Data Modeling** → Implemented **Medallion Architecture** (Bronze, Silver, Gold) for structured data processing.  
 
 ---
 
-## **4. Data Sourcing**  
+## **3. Data Sourcing**  
 - **Fetched data directly from the website.**  
 - **Azure Data Factory** was used for ingestion via **API connections**.  
 - Data was stored in **Azure Data Lake (Gen2)** using **Parquet format** for efficiency.  
 
 ---
 
-## **5. Data Transformation**  
+## **4. Data Transformation**  
 ✔ **Bronze Layer:** Raw data stored in **Parquet format**.  
 ✔ **Silver Layer:** Used **PySpark transformations** to clean and filter the data.  
 ✔ **Gold Layer:** Created **Delta Tables** for efficient querying in Power BI.  
@@ -27,15 +33,15 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
 
 ---
 
-## **7. Analysis & Visualizations**  
+## **5. Analysis & Visualizations**  
 Key Insights from Power BI Dashboard:  
 - **Top Boroughs & Zones:** Identified **high-demand locations** (e.g., JFK, Manhattan).  
 - **Trip Volume Trends:** Analyzed **peak hours and days** for better fleet management.  
 - **Drop-off vs. Pickup Patterns:** Helped **optimize taxi allocation strategies**.
-![](visuals.png)  
+![](picture.jpeg)  
 
 ---
-## **10. Technologies Used**  
+## **6. Technologies Used**  
 - **Azure Data Factory** → Data ingestion via **APIs**.  
 - **Databricks** → Managed **clusters, transformations, and Delta Tables**.  
 - **Azure Data Lake Gen2** → Stored data in **Parquet & Delta format**.  
@@ -43,7 +49,7 @@ Key Insights from Power BI Dashboard:
 
 ---
 
-## **9. Challenges & Growth**  
+## **7. Challenges & Growth**  
 
 ### **Challenges Faced:**  
 ❌ **Large data volume** – Optimized using **Parquet & Delta Tables**.  

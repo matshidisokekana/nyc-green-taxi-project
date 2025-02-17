@@ -17,9 +17,12 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
 ## **3. Data Sourcing**  
 - **Fetched data directly from the website.**  
 - **Azure Data Factory** was used for ingestion via **API connections**.  
-- Data was stored in **Azure Data Lake (Gen2)** using **Parquet format** for efficiency.  
+- Data was stored in **Azure Data Lake (Gen2)** using **Parquet format** for efficiency.
+  
+ **API connections**   
  ![](api.png)
-
+ 
+**Azure Data Lake (Gen2)** using **Parquet format**
 ![](parquet.png)
 
 ---
@@ -27,11 +30,16 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
 ## **4. Data Transformation**  
 ✔ **Bronze Layer:** Raw data stored in **Parquet format**.  
 ✔ **Silver Layer:** Used **PySpark transformations** to clean and filter the data.  
-✔ **Gold Layer:** Created **Delta Tables** for efficient querying in Power BI.  
+✔ **Gold Layer:** Created **Delta Tables** for efficient querying in Power BI. 
+
+ **Parquet format**
 ![](bronze.png)
 
+
+**PySpark transformations**
 ![](silver.png)
 
+**Delta Tables**
 ![](gold.png)
 
 ---

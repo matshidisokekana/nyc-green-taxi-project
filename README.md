@@ -3,13 +3,7 @@
 
 ## **1. Introduction**  
 This project is an end-to-end **NYC Green Taxi project** built using **Azure Data Factory, Databricks, Delta Lake, and Power BI**. It follows a structured **Medallion Architecture (Bronze, Silver, Gold)** to ensure optimized data processing, transformation, and reporting.  
-
----
-
-## **2. Problem Statement**  
-
-### **Q: How can we optimize NYC Green Taxi operations by identifying high-demand locations?**  
-
+ 
 ---
 
 ## **3. Skills Demonstrated**  

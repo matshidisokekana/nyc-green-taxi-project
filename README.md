@@ -39,18 +39,11 @@ Key Insights from Power BI Dashboard:
 - **Drop-off vs. Pickup Patterns:** Helped **optimize taxi allocation strategies**.  
 
 ---
-
-## **8. Conclusion & Recommendations**  
-
-### **Conclusion:**  
-✔ **Manhattan & JFK Airport** are the most frequent taxi zones.  
-✔ **Optimizing fleet allocation** in high-demand areas can improve efficiency.  
-✔ **Real-time dashboards** help businesses track trends and make data-driven decisions.  
-
-### **Recommendations:**  
-- Deploy **dynamic pricing models** for high-demand zones.  
-- Increase taxi availability in **peak hours** for better service.  
-- Use **real-time analytics** for **data-driven fleet management**.  
+## **10. Technologies Used**  
+- **Azure Data Factory** → Data ingestion via **APIs**.  
+- **Databricks** → Managed **clusters, transformations, and Delta Tables**.  
+- **Azure Data Lake Gen2** → Stored data in **Parquet & Delta format**.  
+- **Power BI** → Built **interactive dashboards & visualizations**.  
 
 ---
 

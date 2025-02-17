@@ -1,7 +1,7 @@
 
 ---
 
-## **1. Introduction**  
+## **1. Azure-Data-Engineering-End-to-End-Project**  
 This project is an end-to-end **NYC Green Taxi project** built using **Azure Data Factory, Databricks, Delta Lake, and Power BI**. It follows a structured **Medallion Architecture (Bronze, Silver, Gold)** to ensure optimized data processing, transformation, and reporting.  
  
 ## **Medallion Architecture Diagram **

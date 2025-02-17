@@ -32,13 +32,6 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
 
 ---
 
-## **6. Data Modeling**  
-- Used **Flat Tables** to simplify relationships between **trip data, taxi zones, and taxi types**.  
-- Directly connected **Power BI to Databricks Delta Tables** for real-time analytics.  
-- Optimized data queries for **better dashboard performance**.  
-
----
-
 ## **7. Analysis & Visualizations**  
 Key Insights from Power BI Dashboard:  
 - **Top Boroughs & Zones:** Identified **high-demand locations** (e.g., JFK, Manhattan).  

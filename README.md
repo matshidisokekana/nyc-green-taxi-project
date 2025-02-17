@@ -6,12 +6,7 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
  
 ---
 
-## **3. Skills Demonstrated**  
-✅ **Data Engineering** → Data ingestion, transformation, and storage using **Azure Data Factory & Databricks**.  
-✅ **Data Modeling** → Implemented **Medallion Architecture** (Bronze, Silver, Gold) for structured data processing.  
-✅ **Power BI Visualization** → Built interactive dashboards showing **top pickup/drop-off locations**.  
-✅ **Security & Access Control** → Used **Service Principal** to manage access in **Azure Data Lake**.  
-![](visuals.png)
+
 ---
 
 ## **4. Data Sourcing**  

@@ -27,13 +27,9 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
 ✔ **Bronze Layer:** Raw data stored in **Parquet format**.  
 ✔ **Silver Layer:** Used **PySpark transformations** to clean and filter the data.  
 ✔ **Gold Layer:** Created **Delta Tables** for efficient querying in Power BI.  
-![](Bronze.png)
-![](Silver.png)
-![](gold.png)
-### **Specific Transformation:**  
-- Filtered **Top 10 Pickup & Drop-off Locations** based on trip count.  
-- Aggregated data for **performance optimization** in Power BI.  
-
+![](bronze.png)
+![](silver.png)
+![](gold.png)  
 ---
 
 ## **5. Analysis & Visualizations**  

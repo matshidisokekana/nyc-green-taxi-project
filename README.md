@@ -20,7 +20,7 @@ This project is an end-to-end **NYC Green Taxi project** built using **Azure Dat
 - **Azure Data Factory** was used for ingestion via **API connections**.  
 - Data was stored in **Azure Data Lake (Gen2)** using **Parquet format** for efficiency.  
 :..........................:|:...................:
- ![](api.png)                      ![](Parquet.png)
+ ![](api.png)                   ![](Parquet.png)
 ---
 
 ## **4. Data Transformation**  
